@@ -70,8 +70,8 @@ export const Navbar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
-          <div className="flex items-center gap-7">
-            <img src="./public/public/img/logo.png" alt="logo" className="w-10" />
+          <div className="flex items-center gap-7 ">
+            <img src="./public/public/img/logo.png" alt="logo" className="w-10 rounded-full bg-cover" />
 
             <Button
               id="product-button"
